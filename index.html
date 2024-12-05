@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spieghe</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spieghe</title>
+
+  <!-- HTML Meta Tags -->
+  <meta name="description" content="Spieghe è una newsletter che spiega (di lì il nome) le connessioni tra tecnologia, economia e società."/>
+  <meta name="keywords" content="substack,spieghe,newsletter,technolgia,economia,società"/>
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Spieghe"/>
+  <meta property="og:site_name" content="Spieghe"/>
+  <meta property="og:description" content="Spieghe è una newsletter che spiega (di lì il nome) le connessioni tra tecnologia, economia e società."/>
+  <meta property="og:url" content="https://spieghe.github.io/" id="meta-url"/>
+  <meta property="og:image" content="https://spieghe.github.io/assets/profile.png"/>
+  <meta property="og:image:type" content="image/jpeg"/>
+  <meta property="og:image:width" content="476"/>
+  <meta property="og:image:height" content="249"/>
+
+  <!-- X Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta property="twitter:site" content="@"/>
+  <meta name="twitter:title" content="Home"/>
+  <meta name="twitter:description" content="Spieghe è una newsletter che spiega (di lì il nome) le connessioni tra tecnologia, economia e società."/>
+  <meta name="twitter:image" content="https://spieghe.github.io/assets/profile.png"/>
+
+
+  <link rel="canonical" href="https://spieghe.github.io/"/>
+  <link rel="stylesheet" type="text/css" href="https://spieghe.github.io/assets/style.css"/>
+  <link rel="stylesheet" type="text/css" href="https://spieghe.github.io/assets/style.css"/>
+
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
 </head>
-<body>
+
+  <body>
+    <main>
     <header>
-      
+	   <a href="https://spieghe.github.io"> <img class="avatar" src="https://spieghe.github.io/assets/profile.png" alt="profile picture"></a>
+    <div class="newsletter-description">Spieghe è una newsletter che spiega (di lì il nome) le connessioni tra tecnologia, economia e società.</div>
     </header>
 
-<div id="substack-feed-embed"></div>
+    <div id="substack-feed-embed"></div>
+    <script>
+      window.SubstackFeedWidget = {
+        substackUrl: "spieghe.substack.com",
+        posts: 12
+      };
+    </script>
+    <script src="https://substackapi.com/embeds/feed.js" async></script>
 
-<script>
-  window.SubstackFeedWidget = {
-    substackUrl: "spieghe.substack.com",
-    posts: 12
-  };
-</script>
-<script src="https://substackapi.com/embeds/feed.js" async></script>
+    <footer>&copy; 2024 Spieghe</footer>
+    </main>
+  </body>
 
-    <footer>
-        <p>&copy; 2024 Spieghe</p>
-    </footer>
-</body>
 </html>
