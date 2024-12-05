@@ -7,119 +7,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align:baseline
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display:block
-}
-
-body {
-    line-height:1
-}
-
-blockquote, q {
-    quotes:none
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content:none
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing:0
-}
 
 html, body {
     background-color: #fff;
     color: #444;
     font-family: "Avenir Next", "Helvetica", "Arial", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    max-width: 660px;
+    margin: auto;
     outline: none;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color:transparent
-}
-
-a, a:active, a:link, a:visited {
-    color: #59AEF8;
-    text-decoration:none
-}
-
-a:hover {
-    text-decoration:underline
-}
-
-b, strong {
-    font-weight:600
-}
-
-blockquote {
-    padding: 1px 20px;
-    border-left: 3px solid #59AEF8;
-    font-weight:500
-}
-
-h2, h3, h4, h5, h6, p, ul, ol, dl, figure {
-    margin:15px auto
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background-image:linear-gradient(to right, transparent, rgba(205, 205, 205, 0.5), transparent)
-}
-
-a.footnote {
-    position: relative;
-    top: -8px;
-    font-size:0.6em !important
-}
-
-em {
-    font-style:italic
-}
-
-pre {
-    margin: 0;
-    padding:0
-}
-
-sup {
-    margin: 0px !important;
-    padding: 0 !important;
-    font-size: 0.6em;
-    font-weight: 600;
-    position: relative;
-    top:-8px
-}
-
-table {
-    font-size:inherit
-}
-
-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:100%
-}
-
-ul {
-    line-height: 1.5em;
-    padding-left: 40px;
-    list-style:disc
-}
-
-ol {
-    line-height: 1.5em;
-    padding-left:40px
-}
-
-li {
-    margin:15px 0
 }
 
 .avatar {
@@ -127,30 +27,23 @@ li {
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    margin: 50px auto 40px auto;
+    border-color: red;
+    margin: 50px auto 0px auto;
     transition: all .25s ease-in-out;
     -webkit-transition: all .25s ease-in-out;
     -moz-transition: all .25s ease-in-out;
     -o-transition:all .25s ease-in-out
 }
 
-
-.main {
-    min-height: 900px;
-    max-width: 900px;
-    margin: auto;
-    padding:50px 12px !important
-}
-
-.content-text {
-    background-color: #fff;
-    margin: 0 auto;
-    max-width:680px
+.newsletter-description {
+    font-size: 0.88em;
+    width: 380px;
+    margin: 0px auto 50px auto;
+    text-align: center;
 }
 
 footer {
-    max-width: 900px;
     text-align: center;
     font-size: 0.8em;
-    margin:0 auto 140px auto
+    margin:100px auto 80px auto;
 }
